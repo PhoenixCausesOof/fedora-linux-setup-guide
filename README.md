@@ -11,7 +11,8 @@ A: Short answer? *It depends.* Long answer? Go with the most stable, most up-to-
 Otherwise, go with native RPMs. I'd avoid AppImages as they're a bit of a hassle to organize (maybe use [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)?).
 
 Q: What about atomic distributions?  
-A: I haven't ever tried one, but I believe you shouldn't go with Fedora's relases (Silverblue, Kinoite, etc.) but with [Universal Blue's](https://universal-blue.org/).
+A: Not for me. If you are interested though, you will likely rather [UBlue](https://universal-blue.org/)'s releases to Fedora's.
 
 Q: Where to find the answers?  
-A: [ArchWiki](https://wiki.archlinux.org/title/Main_page), [Fedora Quick Docs](https://docs.fedoraproject.org/en-US/quick-docs/), [RHEL Docs](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/), [Google](https://www.google.com/) and/or [ChatGPT](https://chatgpt.com/)
+A: [ArchWiki](https://wiki.archlinux.org/title/Main_page), [Fedora Quick Docs](https://docs.fedoraproject.org/en-US/quick-docs/), [RHEL Docs](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/) and [Google](https://www.google.com/).  
+If you like something more interactive, [ChatGPT](https://chatgpt.com/), [the Discord server](https://discord.com/invite/fedora) and [Ask Fedora](https://discussion.fedoraproject.org/c/ask/6).
