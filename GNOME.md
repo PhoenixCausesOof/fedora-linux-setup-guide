@@ -2,17 +2,22 @@
 
 ## Replace GNOME Totem with mpv
 
+Totem is GNOME's default video player. It's not bad, but [mpv](https://mpv.io/) is just better.
+
 ```text
 sudo dnf swap totem mpv
 ```
 
-Check out [configuring MPV](https://wiki.archlinux.org/title/Mpv#Configuration). Also make sure you're getting hardware acceleration properly.
+To get hardware acceleration on it: <https://wiki.archlinux.org/title/Mpv#Hardware_video_acceleration>  
+Make sure you set up [RPMFusion](SYSTEM.md#enable-rpmfusion) already.
 
 ## Replace GNOME System Monitor
 
+GNOME System Monitor out of place with the rest of the system (or so I think). You might want to replace it.
+
 ### (with) htop
 
-[`htop`](https://htop.dev/) is a lightweight system monitor for the terminal.
+[`htop`](https://htop.dev/) is a lightweight system monitor **for the terminal.**
 
 ```text
 sudo dnf swap gnome-system-monitor htop
@@ -26,8 +31,6 @@ If you want something graphical, you can use something like [Resources](https://
 sudo dnf rm gnome-system-monitor
 flatpak install flathub net.nokyan.Resources
 ```
-
-No matter what system monitor you go with, just remove GNOME's.
 
 ## Remove unused GNOME apps
 
@@ -45,7 +48,7 @@ sudo dnf rm "libreoffice-*"
 
 ## (Install) GNOME Tweaks
 
-GNOME Tweaks allows (proper) configuring of system fonts, themes, mouse, touchpad and keyboards, enabling titlebar buttons, etc. It's essential in any GNOME system.
+GNOME Tweaks allows (proper) configuring of system fonts, themes, mouse, touchpad and keyboards, enabling titlebar buttons, etc. It's likely some functionality you didn't find the in the native installation is in it, thus proving itself essential to any desktop with GNOME.
 
 ```text
 sudo dnf install gnome-tweaks
@@ -61,6 +64,8 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 
 Pick some extensions: <https://extensions.gnome.org/#sort=downloads> (you can also browse in the Extension Manager app)
 
+You can't live without [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/).
+
 ## Theming
 
 I think GNOME is quite limited in regard to theming. That said, I don't find it that much of a necessity since the desktop already looks decent. If you still want to spice some things up, then...
@@ -73,23 +78,9 @@ I don't use an icon theme because they never really provide enough icons and it 
 
 A custom system font may be a good idea. I use JetBrains Mono (install using `sudo dnf install jetbrains-mono-fonts`).
 
-## Mutter Triple-buffering
-
-Install a version of `Mutter` with the triple-buffering patch:
-
-```text
-sudo dnf copr enable trixieua/mutter-patched -y
-sudo dnf update --refresh
-```
-
-Sources:
-
-* <https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/1441>
-* <https://copr.fedorainfracloud.org/coprs/trixieua/mutter-patched/>
-
 ## Remove GNOME Software (NOT RECOMMENDED)
 
-This is probably not a good idea since it allows discovering new apps, and installing stuff is much easier with it, but I simply don't like how it auto-starts and runs in the background, and uses a decent amount of resources. This is only specific to my setup, though.
+***I*** was annoyed by how it just auto-started, ran in the background and use a fair amount of system resources. If you don't mind or your machine is any decent, then keep it. It usually proves quite useful, especially for a Linux newbie.
 
 ```text
 sudo dnf rm gnome-software

@@ -10,6 +10,8 @@
   - [Enable Intel GuC and HuC and Framebuffer compression (Intel only)](#enable-intel-guc-and-huc-and-framebuffer-compression-intel-only)
     - [Verify if it's working](#verify-if-its-working)
   - [Enable Flathub](#enable-flathub)
+  - [Theme and/or change your shell](#theme-andor-change-your-shell)
+  - [Replace tuned with auto-cpufreq](#replace-tuned-with-auto-cpufreq)
   - ["No more blurry fonts"](#no-more-blurry-fonts)
   - [Install micro](#install-micro)
   - [Speed up DNF](#speed-up-dnf)
@@ -95,7 +97,7 @@ Sources:
 
 ```text
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-``
+```
 
 ## Theme and/or change your shell
 
@@ -124,7 +126,7 @@ If you're too stupid to use `vim`, but also too smug to use `nano`, use [micro](
 
 ## Speed up DNF
 
-You'll preferably want the maximum amount of parallel downloads (20) if you have a good bandwidth, and if Fedora can't pick out actually decent mirrors, then enable `fastestmirror` (though I don't guarantee the same won't happen).
+You'll preferably want the maximum amount of parallel downloads (20) if you have a good bandwidth, and if Fedora can't pick out actually decent mirrors, then enable `fastestmirror` (though I can't guarantee an improvement).
 
 ```text
 sudo $EDITOR /etc/dnf/dnf.conf
