@@ -8,7 +8,7 @@ Set up Firefox: [Firefox Setup](FIREFOX.md)
 
 Q: Which release of a given program do I pick?  
 A: Short answer? *It depends.* Long answer? Go with the most stable, most up-to-date, least headache-inducing release. Typically Flatpaks as they're the most portable release, but you could face some issues due to their sandboxed nature (see [this GitHub issue](https://github.com/flathub/org.keepassxc.KeePassXC/issues/29) as example).  
-Otherwise, go with native RPMs. I'd avoid AppImages as they're a bit of a hassle to organize (maybe use [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)?).
+Otherwise, go with native RPMs. I'd avoid AppImages as they're a bit of a hassle to organize (unless you use [Gear Lever](https://github.com/mijorus/gearlever)).
 
 Q: What about atomic distributions?  
 A: Not for me. If you are interested though, you will likely rather [UBlue](https://universal-blue.org/)'s releases to Fedora's.
