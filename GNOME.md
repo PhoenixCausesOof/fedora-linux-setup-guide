@@ -40,7 +40,7 @@ Cheatsheet:
 > **rhythmbox:** a music player  
 > **gnome-connections**: allows you to connect to and use other desktops  
 > **gnome-contacts**: keeps and organizes contact information  
-> **evince**: document viewer (PDF, DjVu, etc.)
+> **evince**: document viewer (PDF, DjVu, etc.)  
 > **gnome-tour**: a guided tour and greeter for GNOME  
 > **simple-scan**: makes a digital copy of your photos and documents
 
