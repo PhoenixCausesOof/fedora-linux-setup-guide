@@ -13,7 +13,7 @@ Make sure you set up [RPMFusion](SYSTEM.md#enable-rpmfusion) already.
 
 ## Replace GNOME System Monitor
 
-GNOME System Monitor looks out of place with the rest of the system (or so I think). You might want to replace it.
+GNOME System Monitor out of place with the rest of the system (or so I think). You might want to replace it.
 
 ### (with) htop
 
@@ -34,15 +34,7 @@ flatpak install flathub net.nokyan.Resources
 
 ## Remove unused GNOME apps
 
-These apps remain unused for me, at least. Feel free to keep whichever ones you need.
-
-Cheatsheet:
-> **rhythmbox:** a music player  
-> **gnome-connections**: allows you to connect to and use other desktops  
-> **gnome-contacts**: keeps and organizes contact information  
-> **evince**: document viewer (PDF, DjVu, etc.)
-> **gnome-tour**: a guided tour and greeter for GNOME  
-> **simple-scan**: makes a digital copy of your photos and documents
+These apps remain unused for me, at least. Feel free to keep whichever ones you need (though you'll need to figure out which does what).
 
 ```text
 sudo dnf rm rhythmbox gnome-connections gnome-contacts evince gnome-tour simple-scan

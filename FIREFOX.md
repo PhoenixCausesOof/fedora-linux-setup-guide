@@ -12,6 +12,6 @@ If you're looking to "maximize 'privacy'", do so with [arkenfox/user.js](https:/
 
 ## Extensions
 
-Refer to: <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
+Read: <https://github.com/arkenfox/user.js/wiki/4.1-Extensions>
 
 As a general rule of thumb, pick open-source extensions over closed-source ones.
